@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mr. Travel Buddy - Your Trusted Travel Partner</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header / Navigation -->
+  <header class="bg-white shadow-md fixed w-full top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <div class="bg-blue-600 text-white rounded-full p-2 w-10 h-10 flex items-center justify-center font-bold text-xl">
+          <i class="fas fa-user-tie"></i>
+        </div>
+        <span class="text-2xl font-bold text-gray-900">Mr. Travel <span class="text-blue-600">Buddy</span></span>
+      </div>
+      <nav class="hidden md:flex space-x-8 font-medium">
+        <a href="#home" class="hover:text-blue-600 transition">होम</a>
+        <a href="#about" class="hover:text-blue-600 transition">हमारे बारे में</a>
+        <a href="#packages" class="hover:text-blue-600 transition">टूर पैकेज</a>
+        <a href="#contact" class="hover:text-blue-600 transition">संपर्क करें</a>
+      </nav>
+      <a href="#booking" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-lg font-semibold transition">
+        बुक करें
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="pt-28 pb-20 bg-gradient-to-r from-blue-900 to-indigo-800 text-white">
+    <div class="max-w-7xl mx-auto px-4 text-center py-16">
+      <h1 class="text-4xl md:text-6xl font-extrabold mb-6">
+        आपकी हर यात्रा का सच्चा साथी
+      </h1>
+      <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-blue-100">
+        फैमिली ट्रिप हो या सोलो एडवेंचर, Mr. Travel Buddy के साथ अपनी यात्रा को यादगार और तनावमुक्त बनाएं।
+      </p>
+      <div class="bg-white p-4 rounded-xl shadow-lg max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-4 text-gray-700">
+        <input type="text" placeholder="कहाँ जाना चाहते हैं?" class="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <select class="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+          <option value="">यात्रा का प्रकार</option>
+          <option value="family">फैमिली टूर</option>
+          <option value="honeymoon">हनीमून पैकेज</option>
+          <option value="adventure">एडवेंचर ट्रिप</option>
+        </select>
+        <input type="date" class="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <button class="bg-amber-500 hover:bg-amber-600 text-white font-bold p-3 rounded-lg transition">
+          सर्च करें
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section id="about" class="py-16 max-w-7xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-gray-900">Mr. Travel Buddy ही क्यों चुनें?</h2>
+      <p class="text-gray-600 mt-2">हम सिर्फ यात्रा नहीं कराते, यादें बनाते हैं</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white p-8 rounded-xl shadow-md border border-gray-100 text-center hover:shadow-lg transition">
+        <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+          <i class="fas fa-users"></i>
+        </div>
+        <h3 class="text-xl font-bold mb-2">फैमिली-फ्रेंडली सेवाएं</h3>
+        <p class="text-gray-600">बच्चों से लेकर बुजुर्गों तक, परिवार के हर सदस्य की सुविधा और सुरक्षा का विशेष ध्यान।</p>
+      </div>
+      <div class="bg-white p-8 rounded-xl shadow-md border border-gray-100 text-center hover:shadow-lg transition">
+        <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+          <i class="fas fa-wallet"></i>
+        </div>
+        <h3 class="text-xl font-bold mb-2">किफायती व पारदर्शी मूल्य</h3>
+        <p class="text-gray-600">कोई छिपा हुआ शुल्क नहीं। बेस्ट प्राइस गारंटी के साथ प्रीमियम सुविधाएं।</p>
+      </div>
+      <div class="bg-white p-8 rounded-xl shadow-md border border-gray-100 text-center hover:shadow-lg transition">
+        <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">
+          <i class="fas fa-headset"></i>
+        </div>
+        <h3 class="text-xl font-bold mb-2">24/7 पर्सनल गाइडेंस</h3>
+        <p class="text-gray-600">टूर शुरू होने से लेकर वापसी तक, आपका ट्रेवल बडी हर कदम पर आपके साथ रहेगा।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Tour Packages -->
+  <section id="packages" class="py-16 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-900">लोकप्रिय टूर पैकेज</h2>
+        <p class="text-gray-600 mt-2">हमारे सबसे ज्यादा पसंद किए जाने वाले ट्रेवल प्लान</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Package 1 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+          <div class="bg-blue-600 h-48 flex items-center justify-center text-white font-bold text-2xl">
+            हिमाचल वंडर्स
+          </div>
+          <div class="p-6">
+            <div class="flex justify-between items-center mb-2">
+              <span class="text-sm font-semibold text-blue-600 bg-blue-50 px-3 py-1 rounded-full">5 रातें / 6 दिन</span>
+              <span class="text-amber-500 font-bold"><i class="fas fa-star"></i> 4.9</span>
+            </div>
+            <h3 class="text-xl font-bold mb-2">मनाली - शिमला फैमिली स्पेशल</h3>
+            <p class="text-gray-600 text-sm mb-4">होटल, ब्रेकफास्ट, प्राइवेट कैब और साइटसीइंग शामिल।</p>
+            <div class="flex justify-between items-center pt-4 border-t border-gray-100">
+              <div>
+                <span class="text-xs text-gray-500">शुरुआती कीमत</span>
+                <p class="text-lg font-bold text-gray-900">₹14,999 / व्यक्ति</p>
+              </div>
+              <a href="#booking" class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-700">बुकिंग करें</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Package 2 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+          <div class="bg-emerald-600 h-48 flex items-center justify-center text-white font-bold text-2xl">
+            उत्तराखंड देवभूमि
+          </div>
+          <div class="p-6">
+            <div class="flex justify-between items-center mb-2">
+              <span class="text-sm font-semibold text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full">4 रातें / 5 दिन</span>
+              <span class="text-amber-500 font-bold"><i class="fas fa-star"></i> 4.8</span>
+            </div>
+            <h3 class="text-xl font-bold mb-2">ऋषिकेश - नैनीताल - कॉर्बेट</h3>
+            <p class="text-gray-600 text-sm mb-4">रिवर राफ्टिंग, लेक टूर और जंगल सफारी का सही संगम।</p>
+            <div class="flex justify-between items-center pt-4 border-t border-gray-100">
+              <div>
+                <span class="text-xs text-gray-500">शुरुआती कीमत</span>
+                <p class="text-lg font-bold text-gray-900">₹12,499 / व्यक्ति</p>
+              </div>
+              <a href="#booking" class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-700">बुकिंग करें</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Package 3 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+          <div class="bg-amber-600 h-48 flex items-center justify-center text-white font-bold text-2xl">
+            शाही राजस्थान
+          </div>
+          <div class="p-6">
+            <div class="flex justify-between items-center mb-2">
+              <span class="text-sm font-semibold text-amber-600 bg-amber-50 px-3 py-1 rounded-full">6 रातें / 7 दिन</span>
+              <span class="text-amber-500 font-bold"><i class="fas fa-star"></i> 4.9</span>
+            </div>
+            <h3 class="text-xl font-bold mb-2">जयपुर - उदयपुर - जैसलमेर</h3>
+            <p class="text-gray-600 text-sm mb-4">किला भ्रमण, डेजर्ट कैम्पिंग और राजस्थानी सांस्कृतिक अनुभव।</p>
+            <div class="flex justify-between items-center pt-4 border-t border-gray-100">
+              <div>
+                <span class="text-xs text-gray-500">शुरुआती कीमत</span>
+                <p class="text-lg font-bold text-gray-900">₹18,999 / व्यक्ति</p>
+              </div>
+              <a href="#booking" class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-700">बुकिंग करें</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Form Section -->
+  <section id="booking" class="py-16 max-w-4xl mx-auto px-4">
+    <div class="bg-white p-8 rounded-2xl shadow-xl border border-gray-200">
+      <div class="text-center mb-8">
+        <h2 class="text-3xl font-bold text-gray-900">टूर पूछताछ व बुकिंग</h2>
+        <p class="text-gray-600 mt-2">अपनी जरूरत दर्ज करें, हमारे विशेषज्ञ तुरंत आपसे संपर्क करेंगे</p>
+      </div>
+      <form class="space-y-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">पूरा नाम</label>
+            <input type="text" placeholder="आपका नाम" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none">
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">मोबाइल नंबर</label>
+            <input type="tel" placeholder="+91 00000 00000" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none">
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">गंतव्य (Destination)</label>
+            <input type="text" placeholder="कहाँ घूमना चाहते हैं" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none">
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">यात्रियों की संख्या</label>
+            <input type="number" min="1" placeholder="जैसे: 4 सदस्य" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none">
+          </div>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">अतिरिक्त संदेश या प्रश्न</label>
+          <textarea rows="4" placeholder="अपनी पसंदीदा तारीखें या विशेष आवश्यकताएं लिखें..." class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl text-lg transition">
+          सबमिट करें
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-gray-900 text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+      <div>
+        <h3 class="text-2xl font-bold mb-4">Mr. Travel Buddy</h3>
+        <p class="text-gray-400">हम आपकी यात्राओं को सुरक्षित, आरामदायक और यादगार बनाने के लिए प्रतिबद्ध हैं।</p>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold mb-4">संपर्क सूत्र</h4>
+        <p class="text-gray-400 mb-2"><i class="fas fa-phone mr-2"></i> +91 XXXXXXXXXX</p>
+        <p class="text-gray-400 mb-2"><i class="fas fa-envelope mr-2"></i> info@mrtravelbuddy.com</p>
+        <p class="text-gray-400"><i class="fas fa-map-marker-alt mr-2"></i> हरिद्वार / ऋषिकेश, उत्तराखंड</p>
+      </div>
+      <div>
+        <h4 class="text-lg font-semibold mb-4">सोशल मीडिया</h4>
+        <div class="flex space-x-4 text-xl">
+          <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-gray-800 text-center pt-6 text-gray-500 text-sm">
+      &copy; 2026 Mr. Travel Buddy. सर्वाधिकार सुरक्षित।
+    </div>
+  </footer>
+
+</body>
+</html>
